@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="static/css/cart.css">
+
+{%for product in products%}
+
+<img src="{{products[product]['image']}}" width="200px">
+{{products[product]['bio']}}<br>
+{{products[product]['price']}}<br>
+{% endfor %} 
+<a href="/">back to home</a>
+
